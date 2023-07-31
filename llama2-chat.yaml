@@ -10,8 +10,8 @@ urls:
 config_file: |
   name: llama2-13b-chat
   backend: "llama"
-  model: llama2-13b-chat.bin
   parameters:
+    model: llama2-13b-chat.bin
     top_k: 80
     temperature: 0.2
     top_p: 0.7

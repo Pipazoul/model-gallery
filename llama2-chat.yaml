@@ -24,6 +24,7 @@ config_file: |
 
 files:
     - filename: "llama2-13b-chat.bin"
+      uri: "https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/resolve/main/llama-2-13b-chat.ggmlv3.q4_K_S.bin"
 
 prompt_templates:
 - name: "llama2-chat-message"

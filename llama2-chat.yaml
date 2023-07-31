@@ -10,6 +10,7 @@ urls:
 config_file: |
   name: llama2-13b-chat
   backend: "llama"
+  model: llama2-13b-chat.bin
   parameters:
     top_k: 80
     temperature: 0.2
@@ -20,6 +21,9 @@ config_file: |
   system_prompt: |
     You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
     If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+files:
+    - filename: "llama2-13b-chat.bin"
 
 prompt_templates:
 - name: "llama2-chat-message"
